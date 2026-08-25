@@ -23,4 +23,4 @@ EXPLANATION: यहाँ छोटी explanation लिखें।
 - हर सवाल में A, B, C, D चार विकल्प हों
 - ANSWER: A/B/C/D में सही विकल्प दें
 - EXPLANATION: में छोटी explanation दें
-psycopg_pool
+  psycopg_pool
