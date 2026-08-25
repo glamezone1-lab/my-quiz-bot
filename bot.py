@@ -104,7 +104,7 @@ def parse_quiz(text: str):
     title = title_match.group(1).strip() if title_match else "My Quiz"
 
     q_pattern = re.compile(
-        r"(?im)^\s*Q(?:\d+)?\s*:\s*(.+?)\s*$"
+    r"(?im)^\s*(?:Q(?:\d+)?\s*:\s*|\d+\s*[\.\)]\s*)(.+?)\s*$"
     )
     matches = list(q_pattern.finditer(text))
 
