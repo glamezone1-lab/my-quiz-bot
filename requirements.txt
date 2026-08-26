@@ -1,2 +1,1 @@
-python-telegram-bot[webhooks]==22.8
-psycopg[binary,pool]
+python-telegram-bot==22.8
